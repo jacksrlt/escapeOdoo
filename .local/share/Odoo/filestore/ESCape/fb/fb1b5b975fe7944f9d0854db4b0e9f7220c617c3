@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>http://localhost:8069/website/info</loc>
+    </url><url>
+        <loc>http://localhost:8069/shop/terms</loc>
+    </url><url>
+        <loc>http://localhost:8069/events</loc>
+    </url><url>
+        <loc>http://localhost:8069/shop</loc>
+    </url><url>
+        <loc>http://localhost:8069/</loc>
+    </url><url>
+        <loc>http://localhost:8069/shop/busted-6</loc>
+    </url><url>
+        <loc>http://localhost:8069/shop/stalker-2</loc>
+    </url><url>
+        <loc>http://localhost:8069/shop/me-oyes-3</loc>
+    </url><url>
+        <loc>http://localhost:8069/contactus</loc>
+        <lastmod>2021-11-05</lastmod>
+    </url>
+
+</urlset>

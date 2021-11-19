@@ -1,0 +1,9 @@
+#Excluido del repositorio remoto
+.gnupg/
+.gitlocal/
+.git-credentials/
+.bash_history
+.bash_logout
+.bashrc
+.gitconfig
+*.conf
