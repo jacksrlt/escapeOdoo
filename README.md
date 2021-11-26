@@ -122,7 +122,7 @@ Si necesitamos tener algunos contactos a mano, ya sea de empresas que nos propor
 
 &nbsp;
 
-# **Web**<a name="web"></a> **Web**
+# <a name="web"></a> **Web**
 
 Para la web hemos elegido el tema KEA, ya que es elegante y simple, para enfatizar en el contenido minimo y que sea de forma presencial donde se dé mas informacion.
 
