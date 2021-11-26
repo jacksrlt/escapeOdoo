@@ -1,17 +1,19 @@
-# ¿Que es `<ESCape>`?
+# **¿Que es `<ESCape>`?**
 
 Escape es nuestro escenario odoo creado para un ScapeRoom
 
-## Cual es nuestro objectivo?
+## **Cual es nuestro objectivo?**
 Crear un espacio comodo para cualquier empresa, de un modo simple y que sea facil de entender.
 
 
-# Modulos
+# **Modulos**
 
 Para instalar cualquier modulo deseado,dentro del menu de aplicaciones, en la barra superior derecha, y buscaremos el modulo que deseemos.
+
 ![issue tab](img/instalartuto.png)
 
 Le daremos a instalar y listo, tendremos nuestro nuevo modulo instalado.
+
 ![issue tab](img/instalar.png)
 
 Este procedimiento se llevara a cabo con todos los modulos.
@@ -21,17 +23,17 @@ Aqui todos los que nosotros instalamos.
   
 &nbsp;
 
-&nbsp;
 
 ### **Ventas**
 
-En este modulo hemos creado nuestras 3 experiencias,como producto, para que puedan ser compradas por nuestros clientes en la pagina web
+En este modulo hemos creado nuestras 3 experiencias,como producto, para que puedan ser compradas por nuestros clientes en la pagina web. Ademas, gracias al modulo Comercio Electronico (Explicado mas adelane), tendremos todas las compras online a nuestra disposición
+
+
 <!---
 Aqui añadimos foto de los 3 productos
 -->
 
-<!--Ejemplo de compra -->
-![issue tab](img/ejemplocompra.png)
+
 
 
 &nbsp;
@@ -44,9 +46,10 @@ Aqui añadimos foto de los 3 productos
 
 &nbsp;
 
-### Sitio Web
+### Sitio Web 
 
-El modulo Sitio Web es la pagina web en la que los usuarios entran, lo explicamos aqui [Web](#web).
+El modulo Sitio Web es la pagina web en la que los usuarios entran, lo explicamos aqui [Web](#Web).
+
 &nbsp;
 
 &nbsp;
@@ -57,7 +60,7 @@ El modulo Sitio Web es la pagina web en la que los usuarios entran, lo explicamo
 &nbsp;
 
 ### Empleados
-
+gratis 
 En el modulo de empleados nos hemos creado a nosotros mismos y otro empleado como ejemplo, puediendo asi diferenciar entre los distintos empleados que tengamos y poder asignar tareas a cada uno.
 
 ![issue tab](img/empleados.png)
@@ -95,8 +98,15 @@ Con este modulo podremos tendremos un seguimiento de las actividades de todos nu
 
 ### Comercio Electronico
 
+El modulo Comercio Electronico o E-commerce, nos permite tener un espacio de compra en nuestra pagina web, mandando asi la compra al modulo de ventas y poder tener un seguimineto de estas.
+
+![issue tab](img/ejemplocompra.png)
 
 &nbsp;
+
+Una vez un cliente realiza una compra, automaticamente la veremos en Ventas.
+
+
 
 &nbsp;
 
@@ -112,17 +122,12 @@ Si necesitamos tener algunos contactos a mano, ya sea de empresas que nos propor
 
 &nbsp;
 
-# Web 
-
-{web}
+# **Web**<a name="web"></a> **Web**
 
 Para la web hemos elegido el tema KEA, ya que es elegante y simple, para enfatizar en el contenido minimo y que sea de forma presencial donde se dé mas informacion.
 
 
 Lo hemos hecho en 1 simple pagina, creando vinculos a la demas, pero siendo la principal la unica visible.
-
-&nbsp;
-
 
 ![issue tab](img/paginaejemplo2.png)
 
@@ -130,16 +135,12 @@ Lo hemos hecho en 1 simple pagina, creando vinculos a la demas, pero siendo la p
 
 Tambien se puede ver el menu de compra, por si quisieras comprar mas cosas o por si has comprado mas por error
 
-&nbsp;
-
 ![issue tab](img/compra.png)
 
 &nbsp;
 
 
 Las 3 experiencias que tenemos, estaran descritas en la pagina principal, o a la hora de hacer la compra, pero nunca creando una nueva pagina.
-
-&nbsp;
 
 
 ![issue tab](img/paginaejemplo.png)
@@ -150,7 +151,6 @@ Las 3 experiencias que tenemos, estaran descritas en la pagina principal, o a la
 
 Hemos elegido colores oscuros, ya que concuerdan con la tematica "hacker" o "stalker" y de color complementario, azul, el cual concuerda tambien con las imagenes elegidas.
 
-&nbsp;
 
 ![issue tab](img/paletacolores.png)
 
@@ -166,12 +166,50 @@ Tambien hemos implementado algun boton personalizado para hacer mas facil la nav
 
 &nbsp;
 
-
-
-
-
 <!---
 Aqui añadimos la parte del server que hace Jack
 -->
 
 # Server AWS
+
+&nbsp;
+
+
+&nbsp;
+
+
+# Control de versiones y seguridada del sistema.
+
+Para tener nuestra base de datos segura y respaldada, en caso de que ocurriese un error o algun tipo de ataque informatico, podemos encriptarla y subirl a github.
+
+Vamos a crear un backup de nuestra base de datos, y encriptarla desde la terminal de comandos de Ubuntu para que nadie pueda acceder a ella sin la cotraseña.
+
+Primero, nos desconectamos de odoo para acceder a nuestras bases de datos.
+
+![issue tab](img/bases.png)
+
+Como podeis ver, en nuestro caso, tenemos varias bases de datos distintas. Seleccionamos el menu inferior y nos saldran nuevas opciones.
+
+![issue tab](img/opcionesbases.png)
+
+A nosotros nos interesa la opcion backup, pero tambien podremos eliminar y duplicar. Hacemos clic en ella. 
+
+Se nos despliega un nuevo menu emergente, en el que tendremos que poner la contraseña master de odoo para poder hacer el backup y en unos momentos veremos que ya la tenemos descargada en nuestro navegador.
+
+![issue tab](img/descargacopia.png)
+
+Nos dirigimos a la carpeta donde esta descargada nuestra copia y abrimos un terminal (debemos tener permisos de administrador)
+Introducimos el siguiente comando:
+
+"gpg -c [nombre de nuestro backup].zip"
+
+![issue tab](img/gpg.png)
+
+Al dar intro, nos pedira una contraseña de paso, que es la que utilizaremos para desencriptar.
+Listo, ya tenemos nuestro backup de la base de datos encriptada y totalmentes segura.
+
+
+Ahora, vamos a subir todo junto con odoo a nuestro Github.
+
+
+
