@@ -1,71 +1,64 @@
-# **¿Que es `<ESCape>`?**
+# **¿Qué es `<ESCape>`?**
+`<ESCape>` es nuestro escenario Odoo creado para un local de Escape Room ficticio.
 
-Escape es nuestro escenario odoo creado para un ScapeRoom
+&nbsp;
+# **¿Cuál es nuestro objetivo?**
+Crear un espacio cómodo para la gestión de empresas, fácil de entender para cualquier nivel de usuario.
 
-## **Cual es nuestro objectivo?**
-Crear un espacio comodo para cualquier empresa, de un modo simple y que sea facil de entender.
+&nbsp;
+# **Módulos**
+Los módulos utilizados para este proyecto son:
+- Ventas
+- Facturación
+- Sitio web
+- Comercio electrónico
+- Empleados
+- Eventos 
+- Conversaciones
+- Contactos 
+- Calendario 
+- Tableros
 
-
-# **Modulos**
-
-Para instalar cualquier modulo deseado,dentro del menu de aplicaciones, en la barra superior derecha, y buscaremos el modulo que deseemos.
-
-![issue tab](img/instalartuto.png)
-
-Le daremos a instalar y listo, tendremos nuestro nuevo modulo instalado.
-
-![issue tab](img/instalar.png)
-
-Este procedimiento se llevara a cabo con todos los modulos.
-
-Aqui todos los que nosotros instalamos.
+&nbsp;
 ![issue tab](img/tableros.png)
-  
-&nbsp;
-
-
-### **Ventas**
-
-En este modulo hemos creado nuestras 3 experiencias,como producto, para que puedan ser compradas por nuestros clientes en la pagina web. Ademas, gracias al modulo Comercio Electronico (Explicado mas adelane), tendremos todas las compras online a nuestra disposición
-
-
-<!---
-Aqui añadimos foto de los 3 productos
--->
-
-
-
 
 &nbsp;
+## **Ventas**
+A través de este módulo podremos gestionar todo lo relacionado con las ventas de nuestros servicios.
+
+Hemos creado los productos de nuestras tres experiencias para que puedan ser compradas por nuestros clientes en la página web gracias al módulo Comercio Electronico (explicado mas adelante).
 
 &nbsp;
-
-### Facturación
-
-&nbsp;
+![issue tab](img/productos.png)
 
 &nbsp;
-
-### Sitio Web 
-
-El modulo Sitio Web es la pagina web en la que los usuarios entran, lo explicamos aqui [Web](#Web).
+## **Facturación**
+A través de este módulo podemos crear facturas para clientes y proveedores.
 
 &nbsp;
+![issue tab](img/facturacion.png)
 
 &nbsp;
-### Eventos
+## **Sitio Web**
+El módulo Sitio Web es la página web en la que los usuarios entran, a través de este módulo podemos modificar los distinto elementos de la página web así como su contenido. [Lo explicamos a detalle más abajo.](#Web)
 
 &nbsp;
+![issue tab](img/sitioweb.png)
 
 &nbsp;
+## **Comercio Electrónico**
+El módulo Comercio Electrónico es un submódulo de Sitio Web, nos permite publicar nuestros productos en la página para venderlos, aceptando pagos a través de diversas plataformas de pago como PayPal.
 
+&nbsp;
+![issue tab](img/comercioelectronico.png)
+
+&nbsp;
 ### Empleados
-gratis 
-En el modulo de empleados nos hemos creado a nosotros mismos y otro empleado como ejemplo, puediendo asi diferenciar entre los distintos empleados que tengamos y poder asignar tareas a cada uno.
+En el módulo de Empleados nos hemos creado a nosotros mismos y otros empleados como ejemplo, pudiendo así diferenciar entre los distintos empleados que tengamos y poder asignar tareas a cada uno.
 
 ![issue tab](img/empleados.png)
 
-Este modulo nos proporciona poder tener los datos personales de cada empleado en caso de necesitarlos , quien es su jefe, configurar puestos de trabajo..
+Este modulo nos proporciona poder tener los datos personales de cada empleado en caso de necesitarlos, quién es su jefe, configurar puestos de trabajo...
 &nbsp;
 
 &nbsp;
