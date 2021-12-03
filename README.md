@@ -94,7 +94,7 @@ Los Tableros nos permiten crear espacios de trabajo con los módulos o funciones
 La página web es de estilo landing page, con pocos menús y enlaces externos salvo los del módulo de Comercio Electrónico. Hemos elegido el tema KEA, ya que es elegante y simple.
 
 &nbsp;
-![issue tab](img/sitioweb.png)
+![issue tab](im/paginaejemplo2.png)
 &nbsp;
 
 Las tres experiencias que hemos definido como productos, están descritas en la página principal-
