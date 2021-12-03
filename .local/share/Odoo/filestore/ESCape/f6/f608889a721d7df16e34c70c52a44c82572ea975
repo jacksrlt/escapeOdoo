@@ -1,0 +1,15 @@
+
+.hoverlinks:hover {
+  text-decoration: none;
+  color: #085294;
+}
+
+.dam2_mb_button {
+  background-color: #085294;
+  color: #FFFFFF;
+  border-radius: 20px;
+  border: 0;
+  padding: 10px;
+  width: 110px;
+}
+
