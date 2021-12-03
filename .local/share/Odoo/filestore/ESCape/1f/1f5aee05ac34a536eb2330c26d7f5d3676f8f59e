@@ -1,0 +1,48 @@
+
+.editor_enable .s_website_form[data-vcss="001"] .s_website_form_field_hidden {
+  display: block;
+  opacity: 0.5;
+}
+
+.editor_enable .s_website_form[data-vcss="001"] .s_website_form_field select {
+  pointer-events: none;
+}
+
+.editor_enable .s_website_form[data-vcss="001"] #editable_select.form-control {
+  height: auto;
+}
+
+@media (max-width: 575.98px) {
+  .s_website_form[data-vcss="001"] .s_website_form_label {
+    width: auto !important;
+  }
+}
+
+.s_website_form[data-vcss="001"] .s_website_form_field_hidden {
+  display: none;
+}
+
+.s_website_form[data-vcss="001"] span.s_website_form_mark {
+  font-size: 0.85em;
+  font-weight: 400;
+}
+
+.s_website_form[data-vcss="001"] .s_website_form_dnone {
+  display: none;
+}
+
+.s_website_form[data-vcss="001"] .s_website_form_rows > .form-group {
+  margin-bottom: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.s_website_form[data-vcss="001"] .s_website_form_submit .s_website_form_label, .s_website_form[data-vcss="001"] .s_website_form_recaptcha .s_website_form_label {
+  float: left;
+  height: 1px;
+}
+
+.s_website_form[data-vcss="001"] .s_website_form_no_submit_label .s_website_form_label {
+  display: none;
+}
+
